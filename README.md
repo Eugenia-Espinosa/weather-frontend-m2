@@ -48,7 +48,7 @@ Para iniciar el proyecto localmente:
 
 
 ## Despliegue en Producción 📦
-- [Despliege](https://eugenia-espinosa.github.io/Ejercicio_colaborativo/)
+https://github.com/Eugenia-Espinosa/weather-frontend-m2/
 
 Esto creará la carpeta `.output/`, que contiene los archivos optimizados listos para ser servidos en un entorno de producción.
 
