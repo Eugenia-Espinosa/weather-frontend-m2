@@ -53,6 +53,7 @@ $(function () {
                 data-vie = "${value.viernes}"
                 data-sab = "${value.sabado}"
                 data-dom = "${value.domingo}"
+                data-ciu = "${value.capital}"
                 >Ver Clima Semana</a>
               </div>
             </div>
@@ -72,11 +73,13 @@ $(function () {
     let temp_vi = $(this).data("vie")
     let temp_sa = $(this).data("sab")
     let temp_do = $(this).data("dom")
+    let ciud = $(this).data("ciu")
 
     $(".modal-body").html(
       `
+      <p>${ciud}</p>
       <img src="./assets/img/${imagen}"  class="img-fluid" alt="" 
-      <br>
+      
       <p>Lunes     :${temp_lu}</p>
       <p>Martes    :${temp_ma}</p>
       <p>Miércoles :${temp_mi}</p>
