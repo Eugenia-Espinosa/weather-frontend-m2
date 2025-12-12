@@ -8,7 +8,7 @@ $(function () {
 
     { capital: "Lima", img: "lima.jpg", temperatura: "30 C°", estado: "Soleado", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
-    { capital: "La Paz", img: "lapaz.jpg", temperatura: "25 C°", estado: "nublado", icono: " ", lunes: "26 C°", martes: "26 C°", miercoles: "26 C°", jueves: "26 C°", viernes: "26 C°", sabado: "26 C°", domingo: "26 C°" },
+    { capital: "La Paz", img: "lapaz.jpg", temperatura: "29 C°", estado: "Soleaso", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
     { capital: "Montevideo", img: "montevideo.jpg", temperatura: "18 C°", estado: "Parcialmente nublado", icono: "🌥️", lunes: "Parcialmente nublado 12 C°🌥️", martes: "Parcialmente Nublado 15 C° 🌥️", miercoles: "Soleado 20 C° 🌞", jueves: "Soleado 26 C°🌞", viernes: "Parcialmente soleado 25 C° 🌤️", sabado: "Parcialmente Soleado 24 C° 🌤️", domingo: "Parcialmente Soleado 26 C°🌤️" },
 
