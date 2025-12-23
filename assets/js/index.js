@@ -2,17 +2,17 @@ $(function () {
   let ciudades = [
     { capital: "Rio de Janeiro", img: "rio_de_janeiro.jpg", temperatura: "25 C°", estado: "Parcialmente nublado", icono: "🌥️", lunes: "Parcialmente nublado 24 C°🌥️", martes: "Parcialmente Nublado 23 C° 🌥️", miercoles: "Soleado 29 C° 🌞", jueves: "Soleado 26 C°🌞", viernes: "Parcialmente soleado 25 C° 🌤️", sabado: "Parcialmente Soleado 24 C° 🌤️", domingo: "Parcialmente Soleado 26 C°🌤️" },
 
-    { capital: "Buenos Aires", img: "buenos_aires.jpg", temperatura: "29 C°", estado: "Soleaso", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
+    { capital: "Buenos Aires", img: "buenos_aires.jpg", temperatura: "29 C°", estado: "Soleado", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
     { capital: "Santiago", img: "santiago.jpg", temperatura: "20 C°", estado: "Nublado", icono: "☁️", lunes: "Parcialmente nublado 12 C°🌥️", martes: "Parcialmente Nublado 15 C° 🌥️", miercoles: "Soleado 20 C° 🌞", jueves: "Soleado 26 C°🌞", viernes: "Parcialmente soleado 25 C° 🌤️", sabado: "Parcialmente Soleado 24 C° 🌤️", domingo: "Parcialmente Soleado 26 C°🌤️" },
 
     { capital: "Lima", img: "lima.jpg", temperatura: "30 C°", estado: "Soleado", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
-    { capital: "La Paz", img: "lapaz.jpg", temperatura: "29 C°", estado: "Soleaso", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
+    { capital: "La Paz", img: "lapaz.jpg", temperatura: "29 C°", estado: "Soleado", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
     { capital: "Montevideo", img: "montevideo.jpg", temperatura: "18 C°", estado: "Parcialmente nublado", icono: "🌥️", lunes: "Parcialmente nublado 12 C°🌥️", martes: "Parcialmente Nublado 15 C° 🌥️", miercoles: "Soleado 20 C° 🌞", jueves: "Soleado 26 C°🌞", viernes: "Parcialmente soleado 25 C° 🌤️", sabado: "Parcialmente Soleado 24 C° 🌤️", domingo: "Parcialmente Soleado 26 C°🌤️" },
 
-    { capital: "Asunción", img: "asuncion.jpg", temperatura: "29 C°", estado: "Soleaso", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
+    { capital: "Asunción", img: "asuncion.jpg", temperatura: "29 C°", estado: "Soleado", icono: "🌞", lunes: "Parcialmente soleado 25 C° 🌤️", martes: "Parcialmente nublado 17 C°🌥️", miercoles: "Parcialmente nublado 15 C°🌥️", jueves: "Chubascos 17 C° 🌦️", viernes: "Lluvias 15 C° ☔", sabado: "Lluvias 15 C° ☔", domingo: "Parcialmente nublado 17 C°🌥️" },
 
     { capital: "Quito", img: "quito.jpg", temperatura: "25 C°", estado: "Parcialmente nublado", icono: "🌥️", lunes: "Parcialmente nublado 12 C°🌥️", martes: "Parcialmente Nublado 15 C° 🌥️", miercoles: "Soleado 20 C° 🌞", jueves: "Soleado 26 C°🌞", viernes: "Parcialmente soleado 25 C° 🌤️", sabado: "Parcialmente Soleado 24 C° 🌤️", domingo: "Parcialmente Soleado 26 C°🌤️" },
 
@@ -28,7 +28,7 @@ $(function () {
   $.each(ciudades, function (index, value) {
     tarjetas += `
         <div class="col-md-4">
-            <div class="card">
+            <div class="card mt-5">
               <img src="./assets/img/${value.img}" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="card-title">${value.capital}</h5>
