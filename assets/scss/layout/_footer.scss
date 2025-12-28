@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as *;
+
+.footer {
+
+
+    text-align: center;
+    margin-top: 3rem;
+    background-color: $color_footer;
+    color: $color_texto;
+    border: 15px;
+
+    &__texto {
+
+        font-family: 'Times New Roman', Times, serif;
+        
+        
+
+    }
+
+}
