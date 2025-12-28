@@ -28,11 +28,11 @@ $(function () {
   $.each(ciudades, function (index, value) {
     tarjetas += `
         <div class="col-md-4">
-            <div class="card mt-5">
+            <div class="card shadow-lg mt-5 ">
               <img src="./assets/img/${value.img}" class="card-img-top" alt="..." />
               <div class="card-body">
-                <h5 class="card-title">${value.capital}</h5>
-                <p class="card-text" >
+                <h5 class="card-title fs-2">${value.capital}</h5>
+                <p class="card-text fs-5" >
                     ${value.estado}
                 </p>
                 <p class="card-text" >
@@ -77,17 +77,19 @@ $(function () {
 
     $(".modal-body").html(
       `
-      <p>${ciud}</p>
-      <img src="./assets/img/${imagen}"  class="img-fluid" alt="" 
-      
-      <p>Lunes     :${temp_lu}</p>
-      <p>Martes    :${temp_ma}</p>
-      <p>Miércoles :${temp_mi}</p>
-      <p>Jueves    :${temp_ju}</p>
-      <p>Viernes   :${temp_vi}</p>
-      <p>Sábado    :${temp_sa}</p>
-      <p>Domingo   :${temp_do}</p>
-      
+      <p class="fs-4">${ciud}</p>
+      <img src="./assets/img/${imagen}"  class="img-fluid mb-5" alt="" 
+      <div class= "container">
+      <div class="row justify-content-between shadow-lg">
+      <p class="col-md-4 border border-5 fs-5">Lunes     : ${temp_lu}</p>
+      <p class="col-md-4 border border-5 fs-5 ">Martes    : ${temp_ma}</p>
+      <p class="col-md-4 border border-5 fs-5">Miércoles : ${temp_mi}</p>
+      <p class="col-md-4 border border-5 fs-5">Jueves     : ${temp_ju}</p>
+      <p class="col-md-4 border border-5 fs-5 ">Viernes   : ${temp_vi}</p>
+      <p class="col-md-4 border border-5 fs-5">Sábado    : ${temp_sa}</p>
+      <p class="col-md-4 border border-5 fs-5">Domingo   : ${temp_do}</p>
+      <div/>
+      <div/>
        `
     )
   })
