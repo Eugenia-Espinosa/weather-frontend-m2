@@ -22,7 +22,7 @@ $(function () {
   ]
 
   let contenedor = $("#clima_container");
-  
+
   let tarjetas = "";
 
   $.each(ciudades, function (index, value) {
