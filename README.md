@@ -37,10 +37,16 @@ Navegación:
 • Componentes: navbar, card, badge/list-group/button según diseño.
 • Inclusión por CDN (CSS y JS de Bootstrap).
 • Git/GitHub: repo público weather-frontend-m2, mínimo 3 commit con mensaje descriptivos.
+• Aplicar una metodología para la organización de estilos, recomendadamente BEM.
+• Crear una estructura básica de SASS
 
 ## Pre-requisitos ⚙️
 Antes de comenzar, debe tener una cuenta en github:
+
 - [Github](https://github.com/) 
+
+Enlace Github:
+- https://github.com/Eugenia-Espinosa/weather-frontend-m2
 
 ## Comenzando 🚀
 Para iniciar el proyecto localmente:
@@ -57,7 +63,8 @@ Esto creará la carpeta `.output/`, que contiene los archivos optimizados listos
 - Css
 - Java Script
 - Jquery
-- Boostrap
+- Boostrap 5
+- Preprocesador Sass
 
 ## Autores ✒️
 - **Eugenia Espinisa Ramos** ❤️
